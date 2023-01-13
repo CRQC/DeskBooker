@@ -1,15 +1,16 @@
 ﻿using System;
+using System.Collections.Generic;
+using System.Text;
 
-
-namespace DeskBooker.Core.Processor
+namespace DeskBooker.Core.Domain
 {
-    internal class DeskBookingResult
+    public class DeskBookingRequest
     {
-
         public string FirstName { get; set; }
         public string LastName { get; set; }
         public string Email { get; set; }
         public DateTime Date { get; set; }
+
 
     }
 }
